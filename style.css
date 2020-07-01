@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    font-family: 'Pangolin', cursive;;
+}
+h1{
+    font-size:45px;
+}
+.highlight-orange{
+    color:orange;
+}
+.half-width{
+    width:40%;
+    margin-left: 5%;
+    padding-left:2%;
+    float:left;
+}
+.half-width img{
+     width:100%; /*takes 100% space of the parent */
+}
+
+
+section{
+    height:500px;
+}
+.A{
+    
+    background-image: url("images/top-banner.png");
+    background-repeat:no-repeat ;
+}
+a{
+    text-decoration: none;
+    background-image:linear-gradient(45deg,lightsalmon,tomato);
+    padding:10px 20px;
+    border-radius: 8px;
+    color:white;
+    font-weight:700;
+}
+p{
+    color:dimgray;
+}
+.B{
+    background-image: url("images/dream-bg.png");
+    background-repeat:no-repeat ;
+    background-position: right;
+}
+.C{
+    margin-top:15px;
+    padding-top: 100px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+.shadow{
+    box-shadow:10px 10px 40px gray;
+    border-radius: 5px;
+    height:60%;
+}
+#tomato{
+    border-left: 7px solid tomato;
+}
+#skyblue{
+    border-left: 7px solid skyblue;
+}
+
